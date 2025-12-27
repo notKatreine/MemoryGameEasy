@@ -19,8 +19,8 @@ body {
     grid-template-columns: repeat(4, 1fr); 
     
     gap: 2vmin; /* Uses the smaller of the screen dimensions for gaps */
-    width: 95vw;
-    height: 80vh; /* Limits the height so the 'Restart' button stays visible */
+    width: 100vw;
+    height: 95vh; /* Limits the height so the 'Restart' button stays visible */
     max-width: 1200px;
     
 }
@@ -97,6 +97,7 @@ body {
     width: 100%;
     text-decoration: none;
 }
+
 
 
 
