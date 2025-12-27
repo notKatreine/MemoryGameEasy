@@ -18,10 +18,12 @@ body {
     /* This creates 4 columns that expand to fill the available space */
     grid-template-columns: repeat(4, 1fr); 
     
-    gap: 2vmin; /* Uses the smaller of the screen dimensions for gaps */
-    width: 100vw;
-    height: 95vh; /* Limits the height so the 'Restart' button stays visible */
-    max-width: 1200px;
+
+    gap: 20px; /* Increased gap for a cleaner look on tablets */
+    width: 90vw; /* Occupies 90% of the screen width */
+    max-width: 1000px; /* Prevents it from getting absurdly wide on giant monitors */
+    margin: 20px auto; //
+    
     
 }
 
@@ -97,6 +99,7 @@ body {
     width: 100%;
     text-decoration: none;
 }
+
 
 
 
